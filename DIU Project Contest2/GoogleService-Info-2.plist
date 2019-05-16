@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1061338035617-hn502df6ta1gcu18s5cfoph1mtdd4ok4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1061338035617-hn502df6ta1gcu18s5cfoph1mtdd4ok4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6gzvkMSCfggvPcQrCchUK0BBgPvND7Mo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1061338035617</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.yeasirarafataronno.DIU-Project-Contest2</string>
+	<key>PROJECT_ID</key>
+	<string>diu-project-contest-v2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>diu-project-contest-v2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1061338035617:ios:39057a9eb73b0171</string>
+	<key>DATABASE_URL</key>
+	<string>https://diu-project-contest-v2.firebaseio.com</string>
+</dict>
+</plist>
