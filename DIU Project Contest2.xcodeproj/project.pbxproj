@@ -16,6 +16,11 @@
 		506EEFBB228CEBB300D46349 /* StudentLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EEFBA228CEBB300D46349 /* StudentLoginViewController.swift */; };
 		506EEFBD228CEBCE00D46349 /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EEFBC228CEBCE00D46349 /* AdminLoginViewController.swift */; };
 		506EEFBF228CEBE600D46349 /* JudgeLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506EEFBE228CEBE600D46349 /* JudgeLoginViewController.swift */; };
+		508C5078228EA9E400B945F2 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C5077228EA9E400B945F2 /* StudentViewController.swift */; };
+		508C507A228EBC2D00B945F2 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C5079228EBC2D00B945F2 /* Project.swift */; };
+		508C507C228EC49D00B945F2 /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508C507B228EC49D00B945F2 /* JudgeViewController.swift */; };
+		509A48F6228F918B00C13B4F /* AdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A48F5228F918B00C13B4F /* AdminViewController.swift */; };
+		509A48F8228F9D1B00C13B4F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A48F7228F9D1B00C13B4F /* ResultViewController.swift */; };
 		50D8EAC2228D6D2B00B513F3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 50D8EAC1228D6D2B00B513F3 /* GoogleService-Info.plist */; };
 		751432180C9576413396C2BF /* Pods_DIU_Project_Contest2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C36C1DCA67FDD539EA6D489 /* Pods_DIU_Project_Contest2.framework */; };
 /* End PBXBuildFile section */
@@ -33,6 +38,11 @@
 		506EEFBA228CEBB300D46349 /* StudentLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLoginViewController.swift; sourceTree = "<group>"; };
 		506EEFBC228CEBCE00D46349 /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
 		506EEFBE228CEBE600D46349 /* JudgeLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeLoginViewController.swift; sourceTree = "<group>"; };
+		508C5077228EA9E400B945F2 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
+		508C5079228EBC2D00B945F2 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		508C507B228EC49D00B945F2 /* JudgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
+		509A48F5228F918B00C13B4F /* AdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminViewController.swift; sourceTree = "<group>"; };
+		509A48F7228F9D1B00C13B4F /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		50D8EAC1228D6D2B00B513F3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		63F4FD76DB76E68165DACEC7 /* Pods-DIU Project Contest2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIU Project Contest2.debug.xcconfig"; path = "Target Support Files/Pods-DIU Project Contest2/Pods-DIU Project Contest2.debug.xcconfig"; sourceTree = "<group>"; };
 		964788913C64B7C33A36C04E /* Pods-DIU Project Contest2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIU Project Contest2.release.xcconfig"; path = "Target Support Files/Pods-DIU Project Contest2/Pods-DIU Project Contest2.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 				506EEFBA228CEBB300D46349 /* StudentLoginViewController.swift */,
 				506EEFBC228CEBCE00D46349 /* AdminLoginViewController.swift */,
 				506EEFBE228CEBE600D46349 /* JudgeLoginViewController.swift */,
+				508C5077228EA9E400B945F2 /* StudentViewController.swift */,
+				508C5079228EBC2D00B945F2 /* Project.swift */,
+				508C507B228EC49D00B945F2 /* JudgeViewController.swift */,
+				509A48F5228F918B00C13B4F /* AdminViewController.swift */,
+				509A48F7228F9D1B00C13B4F /* ResultViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,12 +258,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508C507C228EC49D00B945F2 /* JudgeViewController.swift in Sources */,
 				506EEFBB228CEBB300D46349 /* StudentLoginViewController.swift in Sources */,
 				506EEFB9228CEB8900D46349 /* RegisterViewController.swift in Sources */,
 				506EEFBD228CEBCE00D46349 /* AdminLoginViewController.swift in Sources */,
 				506EEFA6228CE8DB00D46349 /* ViewController.swift in Sources */,
 				506EEFBF228CEBE600D46349 /* JudgeLoginViewController.swift in Sources */,
+				508C5078228EA9E400B945F2 /* StudentViewController.swift in Sources */,
 				506EEFA4228CE8DB00D46349 /* AppDelegate.swift in Sources */,
+				509A48F6228F918B00C13B4F /* AdminViewController.swift in Sources */,
+				508C507A228EBC2D00B945F2 /* Project.swift in Sources */,
+				509A48F8228F9D1B00C13B4F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DIU Project Contest2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -415,6 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "DIU Project Contest2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

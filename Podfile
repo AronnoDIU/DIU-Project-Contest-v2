@@ -11,6 +11,7 @@ target 'DIU Project Contest2' do
 pod 'Firebase'
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
+pod 'Firebase/Analytics'
 pod 'Firebase/Database'
 pod 'SVProgressHUD'
 pod 'ChameleonFramework'
